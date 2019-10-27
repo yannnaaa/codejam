@@ -6232,6 +6232,17 @@ function draw() {
             }
         }
     });
+
+     document.getElementById('32x32').addEventListener('click', function() {
+         for (let i = 0; i < arr32x32.length; i++) {
+             for (let j = 0; j < arr32x32[i].length; j++) {
+                 ctx.fillStyle = 'rgba(' + arr32x32[i][j] + ')';
+                 //  console.log(arr4x4[i][j]);
+                 //  console.log(ctx.fillStyle);
+                 ctx.fillRect(j * 16, i * 16, 16, 16);
+             }
+         }
+     });
   }
 }
 
