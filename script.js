@@ -6215,3 +6215,24 @@ let arr32x32 = [
             ]
         ]
     ];
+
+
+function draw() {
+  let canvas = document.getElementById('canvas');
+  if (canvas.getContext) {
+
+    let ctx = canvas.getContext('2d');
+
+    document.getElementById('4x4').addEventListener('click', function() {
+
+        for ( let i = 0; i < arr4x4.length; i++ ) {
+            for ( let j = 0; j < arr4x4[i].length; j++ ) {
+                ctx.fillStyle = '#'+arr4x4[i][j];
+                ctx.fillRect(j*128, i*128,128, 128);
+            }
+        }
+    });
+  }
+}
+
+draw();
