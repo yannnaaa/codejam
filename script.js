@@ -6243,6 +6243,20 @@ function draw() {
              }
          }
      });
+
+      document.getElementById('image').addEventListener('click', function() {
+          // Создаем объект изображения
+          let img = new Image();
+
+            // Привязываем функцию к событию onload
+          // Это указывает браузеру, что делать, когда изображение загружено
+          img.onload = function () {
+              ctx.drawImage(img, 0, 0, 512, 512);
+          };
+
+        // Загружаем файл изображения
+          img.src = "assets/image.png";
+      });
   }
 }
 
