@@ -59,14 +59,14 @@ Thanks Victor (@MitskevichVS) for the gif!
 Maximum points - **50**
 
 #### Basic scope (**30**):
-- [ ] Layout (menu, tools, canvas) - **10**
-- [ ] Drawing color matrixes
-  - [ ] 4x4 - **10**
-  - [ ] 32x32 - **10**
+- [x] Layout (menu, tools, canvas) - **10**
+- [x] Drawing color matrixes
+  - [x] 4x4 - **10**
+  - [x] 32x32 - **10**
 
 #### Extra scope (only if basic is implemented)
-- [ ] Show image on canvas **10**
-- [ ] Dynamic canvas size switcher **10**
+- [x] Show image on canvas **10**
+- [x] Dynamic canvas size switcher **10**
 
 
 #### Fines
